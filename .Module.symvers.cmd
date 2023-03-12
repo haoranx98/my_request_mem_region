@@ -1,0 +1,1 @@
+cmd_/home/haoranx98/code/my_request_mem_region/Module.symvers := sed 's/ko$$/o/' /home/haoranx98/code/my_request_mem_region/modules.order | scripts/mod/modpost -m -a   -o /home/haoranx98/code/my_request_mem_region/Module.symvers -e -i Module.symvers   -T -
